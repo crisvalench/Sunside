@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import'./App.css'
+import Credits from "./components/credits";
+import Back from './images/image-header.jpg';
 
 function App() {
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Lato:wght@900&display=swap');
+</style>
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <nav>
+            <ul className='navigation'>
+            <li className='logo'><a className='color'href='#'>sunnyside</a></li>
+            <li className='navigation-item'><a className='color'href='#'>About</a></li>
+            <li className='navigation-item'><a className='color'href='#'>Services</a></li>
+            <li className='navigation-item'><a className='color'href='#'>Proyects</a></li>
+            <li className='navigation-item '><a className='color-a-2'href='#'>CONTACT</a></li>
+          </ul>
+        </nav>
+        {/* <img src={Back}> </img> */}
+         
+        
+        
       </header>
+      <Credits/>
     </div>
   );
 }
