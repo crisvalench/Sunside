@@ -11,14 +11,11 @@
   --white:hsl(0, 0%, 100%);
 }
 
-.App {
-  /* background:rgba(62,191,255,255) ; */
+.App { 
   font-size: 18px;
   color: white;
   margin:0;
   padding: 0;
-  /* background-image:url("./images/image-header.jpg") ; */
-
  }
  header{
   background-image:url("./images/image-header.jpg") ;
@@ -26,6 +23,20 @@
   height: 100vh;
   background-size: cover;
   background-position: center;
+  background-position: relative;
+ }
+ h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform:uppercase ;
+  font-size: 50px;
+  letter-spacing: 10px;
+  width: bold;
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
  }
  .color{
   color:white;
