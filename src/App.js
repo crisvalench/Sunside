@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <header>
+        
         <nav>
             <ul className='navigation'>
             <li className='logo'><a className='color'href='#'>sunnyside</a></li>
@@ -19,7 +20,6 @@ function App() {
             <li className='navigation-item '><a className='color-a-2'href='#'>CONTACT</a></li>
           </ul>
         </nav>
-        {/* <img src={Back}> </img> */}
          
         
         

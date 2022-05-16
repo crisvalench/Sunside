@@ -12,10 +12,20 @@
 }
 
 .App {
-  background:rgba(62,191,255,255) ;
+  /* background:rgba(62,191,255,255) ; */
   font-size: 18px;
   color: white;
-  margin:0
+  margin:0;
+  padding: 0;
+  /* background-image:url("./images/image-header.jpg") ; */
+
+ }
+ header{
+  background-image:url("./images/image-header.jpg") ;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
  }
  .color{
   color:white;
