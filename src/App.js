@@ -23,7 +23,7 @@ function App() {
           </ul>
         </nav>
         <h1>WE ARE CREATIVES</h1>
-        <FontAwesomeIcon icon={faArrowDownLong} />
+        <div className='icon-header'><FontAwesomeIcon clasname='icon-arrow'icon={faArrowDownLong} /></div>
       </header>
       <Credits/>
     </div>
