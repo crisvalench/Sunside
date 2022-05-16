@@ -1,6 +1,9 @@
 import'./App.css'
 import Credits from "./components/credits";
-import Back from './images/image-header.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowDownLong } from '@fortawesome/free-solid-svg-icons';
+
+
 
 function App() {
 <style>
@@ -20,9 +23,7 @@ function App() {
           </ul>
         </nav>
         <h1>WE ARE CREATIVES</h1>
-         
-        
-        
+        <FontAwesomeIcon icon={faArrowDownLong} />
       </header>
       <Credits/>
     </div>
