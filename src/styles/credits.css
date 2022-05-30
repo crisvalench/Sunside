@@ -1,7 +1,8 @@
 .credits{
-  background-color: hsl(168, 34%, 41%);
+  background-color:#9ddbcc;
+  font-family: 'Fraunces', serif;
   font-size: 11px;
-  color: white;
+  color: var(--dark-green);
   padding: 0.5rem 0;
   text-align: center;
 }

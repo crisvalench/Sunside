@@ -1,0 +1,58 @@
+.testimonio{
+  padding: 6em;
+}
+.tittle-testimonio{
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: var(--gray-4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-testiminio{
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr;
+    /* padding: 6em;
+    padding-top: 1em; */
+    /* height: 100vh; */
+  }
+  .clients{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    padding: 40px;
+    padding-top: 0;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .error{
+    width: 80px;
+    padding: 50px;
+    border-radius: 50%;
+  }
+  .text1{
+    color: var(--gray-1);
+    font-family:'Barlow', sans-serif;
+    padding-top:20px;
+    padding-bottom: 30px;
+    text-align: center;   
+  }
+  .name1{
+    color: var(--gray-1);
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+ }
+  .prof1{
+    color: var(--gray-4);
+    font-size: 14px;
+  }

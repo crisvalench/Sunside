@@ -1,0 +1,16 @@
+.imagen{
+    overflow-y: auto;
+    /* width: 700px;
+    height: 588px;
+    height: 588px; */
+  
+    /* border: 1px solid slateblue; */
+  }
+  .cards-image-1{
+  /* border: 1px solid orange; */
+  /* display: flex; */
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  height: 588px;
+  }
